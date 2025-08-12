@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <link rel="stylesheet" href="../src/css/fonts.css">
+        <link rel="stylesheet" href="../src/css/styles.css">    
+        <link rel="stylesheet" href="../src/css/texts.css">
+        <title>Activities | NYP Robotics</title>
+    </head>
+    <body>
+        <div id="activity-overlay">
+            <div class="custom-modal showcase-modal">
+                <button class="close-button"></button>
+                <div class="modal-content p-2">
+                    <h3 class="modal-title">Modal Title</h3>
+                    <p class="modal-date">09-08-2025</p>
+                    <div class="badge-container">
+                        <span>Arduino</span>
+                    </div>
+                    <img class="modal-image my-4" src="../src/assets/images/person_inspecting.jpg" alt="">
+                    <h4>Project Details</h4>
+                    <p class="modal-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere ultrices bibendum. Ut tempus odio ut sapien dignissim commodo. Sed egestas egestas ipsum, vitae laoreet enim mattis quis. Etiam a semper tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere ultrices bibendum. Ut tempus odio ut sapien dignissim commodo. Sed egestas egestas ipsum, vitae laoreet enim mattis quis. Etiam a semper tellus.</p>
+                </div>
+            </div>
+
+            <div class="custom-modal event-modal">
+                <button class="close-button"></button>
+                <div class="modal-content p-2">
+                    <h3 class="modal-title">Modal Title</h3>
+                    <div class="badge-container">
+                        <span>Arduino</span>
+                    </div>
+                    <img class="modal-image my-4" src="../src/assets/images/person_inspecting.jpg" alt="">
+                    <div class="container row p-0 my-4">
+                        <div class="col-md-8">
+                            <div class="d-flex flex-row align-items-center my-2">
+                                <img src="../src/assets/icons/clock_blue.svg" height="36" width="36">
+                                <p class="m-0 ms-2">Date & Time</p>
+                            </div>
+                            <p class="event-date-time"><strong>09-08-2025, 10:00 AM - 2:00 PM</strong></p>
+                            <div class="d-flex flex-row align-items-center my-2">
+                                <img src="../src/assets/icons/location_blue.svg" height="36" width="36">
+                                <p class="m-0 ms-2">Location</p>
+                            </div>
+                            <p class="event-location"><strong>Block E230</strong></p>
+                        </div>
+                        <div class="col-md-4 align-self-center text-center">
+                            <h4>Join Us Now</h4>
+                            <p>To participate in this event!</p>
+                            <a href="join.html" class="btn custom-btn btn-primary">Join Us Now</a>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h4>Event Details</h4>
+                        <p class="modal-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere ultrices bibendum. Ut tempus odio ut sapien dignissim commodo. Sed egestas egestas ipsum, vitae laoreet enim mattis quis. Etiam a semper tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere ultrices bibendum. Ut tempus odio ut sapien dignissim commodo. Sed egestas egestas ipsum, vitae laoreet enim mattis quis. Etiam a semper tellus.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar fixed-top navbar-expand-lg custom-navbar">    
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="me-3" src="../src/assets/icons/icon_white.png" width="48" height="48" class="d-inline-block align-top" alt="">
+                    NYP Robotics
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <span class="nav-text-wrapper">
+                                    <span class="nav-text top">Home</span>
+                                    <span class="nav-text bottom">Home</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="activities.html">
+                                <span class="nav-text-wrapper">
+                                    <span class="nav-text top">Activities</span>
+                                    <span class="nav-text bottom">Activities</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                <span class="nav-text-wrapper">
+                                    <span class="nav-text top">About</span>
+                                    <span class="nav-text bottom">About</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="why.html">
+                                <span class="nav-text-wrapper">
+                                    <span class="nav-text top">Why Us</span>
+                                    <span class="nav-text bottom">Why Us</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="join.html">
+                                <span class="nav-text-wrapper">
+                                    <span class="nav-text top">Join Us</span>
+                                    <span class="nav-text bottom">Join Us</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <span class="nav-text-wrapper">
+                                    <span class="nav-text top">Contact</span>
+                                    <span class="nav-text bottom">Contact</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-blur-overlay"></div>
+        <main>
+            <section id="activities-hero" class="hero-section">
+                <video autoplay muted loop playsinline class="bg-video parallax">
+                    <source src="../src/assets/videos/edited_group_soldering.mp4" type="video/mp4"/>
+                </video>
+
+                <div class="row">
+                    <div class="col-12 pt-1 mt-5">
+                        <h1 class="display glitch">activities & more!</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <span class="typewriter stretched-text" data-text="Design. Prototype. Solder. Learn. Iterate."></span>
+                    </div>
+                </div>
+                <div class="row justify-content-end mt-5">
+                    <div class="col-xxl-6 text-end">
+                        <p><strong>We build. We break. We build again. From rapid prototyping to full-scale competitions!</strong></p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="activities">
+                <ul class="tabs-group">
+                    <li class="tab active"><button data-tab="all">All</button></li>
+                    <li class="tab"><button data-tab="events">Events</button></li>
+                    <li class="tab"><button data-tab="projects">Projects</button></li>
+                </ul>
+
+                <div class="content tab-content mt-5 active" data-tab="all">
+                    <div class="container">
+                        <!-- Basically anything from the other tabs. -->
+                        <!-- For people who dont know what theyre looking for but want to see everything -->
+                        <div class="text-center mb-4">
+                            <h2>Featured</h2>
+                        </div>
+
+                        <div class="text-center mb-4">
+                            <p><strong>A glimpse into what we build, break, and bring to life.</strong></p>
+                        </div>
+
+                        <div class="text-end mt-5">
+                            <span class="typewriter col-lg-6" data-text="Our lawyers told us to put this here."></span>
+                        </div>
+                    </div>
+                    <div id="carousel" class="carousel-container">
+                            <button class="carousel-btn left"></button>
+                            <div class="carousel-track-container">
+                                <ul class="carousel-track">
+                                    <li class="carousel-card" data-target-id="1">
+                                        <img src="../src/assets/images/drone.jpg" alt="" class="">
+                                        <div class="carousel-content d-flex flex-column justify-content-between align-items-end h-100">
+                                            <div class="w-100 text-start">
+                                                <div class="mb-1 card-subtitle">Drone Programming</div>
+                                                <div class="mb-0 card-title">Ground to Sky</div>
+                                            </div>
+                                            <div class="text-end mt-auto">
+                                                <p>Autonomous drone system designed and programmed by seniors!</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="carousel-card" data-target-id="2">
+                                        <img src="../src/assets/images/winning.jpg" alt="">
+                                        <div class="carousel-content d-flex flex-column justify-content-between align-items-end h-100">
+                                            <div class="w-100 text-start">
+                                                <div class="mb-1 card-subtitle">National Robotics Championship 2024</div>
+                                                <div class="mb-0 card-title">Through Steel and Sparks</div>
+                                            </div>
+                                            <div class="text-end mt-auto">
+                                                <p>Watch as our team emereged victory with relentless precision—robots engineered to dominate the battlefield and claim the crown.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="carousel-card" data-target-id="3">
+                                        <img src="../src/assets/images/drone_close-up.jpg" alt="">
+                                        <div class="carousel-content d-flex flex-column justify-content-between align-items-end h-100">
+                                            <div class="w-100 text-start">
+                                                <div class="mb-1 card-subtitle">Drone Racing League Finals 2024</div>
+                                                <div class="mb-0 card-title">Racing the Wind</div>
+                                            </div>
+                                            <div class="text-end mt-auto">
+                                                <p>High-speed adrenaline and razor-sharp control push pilots and machines beyond the edge of possibility.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="carousel-card" data-target-id="6">
+                                        <img src="../src/assets/images/person_inspecting.jpg" alt="">
+                                        <div class="carousel-content d-flex flex-column justify-content-between align-items-end h-100">
+                                            <div class="w-100 text-start">
+                                                <div class="mb-1 card-subtitle">Community Build Night 2025</div>
+                                                <div class="mb-0 card-title">Where Passion Meets Craft</div>
+                                            </div>
+                                            <div class="text-end mt-auto">
+                                                <p>More than machines—this is where friendships form, skills sharpen, and dreams take shape.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="carousel-btn right"></button>
+                    </div>
+
+                    <div class="mb-5">
+                        <div class="row justify-content-between align-items-center">
+                            <span class="typewriter col-lg-4" data-text="Seriously! Don't miss out, you will regret it."></span>
+                            <h2 class="col-lg-6">Latest Events</h2>
+                        </div>
+                        
+                        <div class="container">
+                            <div class="row justify-content-center g-4 mt-4 mb-4">
+                                <div class="col-lg-6">
+                                    <div class="card event-card" data-target-id="5">
+                                        <div class="image-wrapper">
+                                            <img src="../src/assets/images/competition.jpg" alt="Event image">
+                                        </div>
+                                        
+                                        <div class="card-body d-flex flex-column mt-3 p-0">
+                                            <div class="badge-container mb-3">
+                                                <span>Competition</span>
+                                                <span>Team</span>
+                                                <span>Popular</span>
+                                            </div>
+
+                                            <div class="d-flex justify-content-start align-items-center mb-2">
+                                                <div class="ms-1 me-4 brand-azure text-center">
+                                                    <p class="m-0">Sep</p>
+                                                    <h4 class="m-0">15</h4>
+                                                </div>
+                                                
+                                                <h5 class="mb-0 card-title">National Robotics Championship</h5>
+                                            </div>
+
+                                            <p>Teams from different schools compete, build and battle robots designed for precision and speed.</p>
+
+                                            <p class="bold p-0">Singapore Expo, Hall 5</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="card event-card" data-target-id="6">
+                                        <div class="image-wrapper">
+                                            <img src="../src/assets/images/pair.jpg" alt="Event image">
+                                        </div>
+                                        
+                                        <div class="card-body d-flex flex-column mt-3 p-0">
+                                            <div class="badge-container mb-3">
+                                                <span>Workshop</span>
+                                                <span>Chill</span>
+                                            </div>
+
+                                            <div class="d-flex justify-content-start align-items-center mb-2">
+                                                <div class="ms-1 me-4 brand-azure text-center">
+                                                    <p class="m-0">Aug</p>
+                                                    <h4 class="m-0">22</h4>
+                                                </div>
+                                                
+                                                <h5 class="mb-0 card-title">Monthly Night Build</h5>
+                                            </div>
+
+                                            <p>Join a casual, open workshop where makers can create freely. Tools, snacks, and coffee provided.</p>
+
+                                            <p class="bold p-0">Makerspace</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="card event-card"data-target-id="7">
+                                        <div class="image-wrapper">
+                                            <img src="../src/assets/images/circuit.jpg" alt="Event image">
+                                        </div>
+                                        
+                                        <div class="card-body d-flex flex-column mt-3 p-0">
+                                            <div class="badge-container mb-3">
+                                                <span>Workshop</span>
+                                                <span>Masterclass</span>
+                                            </div>
+
+                                            <div class="d-flex justify-content-start align-items-center mb-2">
+                                                <div class="ms-1 me-4 brand-azure text-center">
+                                                    <p class="m-0">Sept</p>
+                                                    <h4 class="m-0">1</h4>
+                                                </div>
+                                                
+                                                <h5 class="mb-0 card-title">Soldering & Circuit Masterclass</h5>
+                                            </div>
+
+                                            <p>Learn the ruthless art of soldering and circuit design. Hands-on workshop to elevate your maker game.</p>
+
+                                            <p class="bold p-0">Makerspace</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="card event-card" data-target-id="8">
+                                        <div class="image-wrapper">
+                                            <img src="../src/assets/images/talk.jpg" alt="Event image">
+                                        </div>
+                                        
+                                        <div class="card-body d-flex flex-column mt-3 p-0">
+                                            <div class="badge-container mb-3">
+                                                <span>Conference</span>
+                                                <span>Popular</span>
+                                            </div>
+
+                                            <div class="d-flex justify-content-start align-items-center mb-2">
+                                                <div class="ms-1 me-4 brand-azure text-center">
+                                                    <p class="m-0">Oct</p>
+                                                    <h4 class="m-0">13</h4>
+                                                </div>
+                                                
+                                                <h5 class="mb-0 card-title">Tech Talk Weekend</h5>
+                                            </div>
+
+                                            <p>Thought leaders drop knowledge bombs by day; coders and builders hack through the night.</p>
+
+                                            <p class="bold p-0">Block S Lecture Theatre</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex justify-content-center mt-3">
+                                <button class="btn custom-btn btn-secondary" data-tab="events">View all events</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="mb-5">
+                            <div class="row justify-content-between align-items-center">
+                                <h2 class="col-lg-4">Projects</h2>
+                                <span class="typewriter col-lg-6" data-text="Designed for humans, not robots. Probably."></span>
+                            </div>
+                            
+                            <div class="container">
+                                <div class="row justify-content-center mt-4 mb-4">
+                                    <div class="col-lg-4">
+                                        <div class="card project-card" data-target-id="9">
+                                            <div class="image-wrapper">
+                                                <img src="../src/assets/images/arduino.jpg" alt="Project image">
+                                            </div>
+                                            
+                                            <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                                <div class="d-flex justify-content-between align-items-center m-0">
+                                                    <div class="project-title">Line-Follower Bot</div>
+                                                    <div class="project-date">07-07-25</div>
+                                                </div>
+                                                <div class="badge-container mt-1">
+                                                    <span>Arduino</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card project-card" data-target-id="10">
+                                            <div class="image-wrapper">
+                                                <img src="../src/assets/images/3d_print_heli.jpg" alt="Project image">
+                                            </div>
+                                            
+                                            <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                                <div class="d-flex justify-content-between align-items-center m-0">
+                                                    <div class="project-title">3D Printed Helicopter</div>
+                                                    <div class="project-date">04-19-25</div>
+                                                </div>
+                                                <div class="badge-container mt-1">
+                                                    <span>3D Printing</span>
+                                                    <span>Arduino</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card project-card" data-target-id="11">
+                                            <div class="image-wrapper">
+                                                <img src="../src/assets/images/breadboard_led.jpg" alt="Project image">
+                                            </div>
+                                            
+                                            <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                                <div class="d-flex justify-content-between align-items-center m-0">
+                                                    <div class="project-title">Voice-Controlled Lamp</div>
+                                                    <div class="project-date">05-29-25</div>
+                                                </div>
+                                                <div class="badge-container mt-1">
+                                                    <span>Arduino</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card project-card" data-target-id="12">
+                                            <div class="image-wrapper">
+                                                <img src="../src/assets/images/drone.jpg" alt="Project image">
+                                            </div>
+                                            
+                                            <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                                <div class="d-flex justify-content-between align-items-center m-0">
+                                                    <div class="project-title">Programmed Drone</div>
+                                                    <div class="project-date">01-02-25</div>
+                                                </div>
+                                                <div class="badge-container mt-1">
+                                                    <span>Drone</span>
+                                                    <span>Python</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card project-card" data-target-id="13">
+                                            <div class="image-wrapper">
+                                                <img src="../src/assets/images/person_making_robot.jpg" alt="Project image">
+                                            </div>
+                                            
+                                            <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                                <div class="d-flex justify-content-between align-items-center m-0">
+                                                    <div class="project-title">Rover</div>
+                                                    <div class="project-date">28-12-24</div>
+                                                </div>
+                                                <div class="badge-container mt-1">
+                                                    <span>Arduino</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card project-card" data-target-id="14">
+                                            <div class="image-wrapper">
+                                                <img src="../src/assets/images/mini-robot.jpg" alt="Project image">
+                                            </div>
+                                            
+                                            <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                                <div class="d-flex justify-content-between align-items-center m-0">
+                                                    <div class="project-title">Mini Robot</div>
+                                                    <div class="project-date">29-11-24</div>
+                                                </div>
+                                                <div class="badge-container mt-1">
+                                                    <span>Prototype</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex justify-content-center mt-3">
+                                    <button class="btn custom-btn btn-secondary" data-tab="projects">View all projects</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="content container tab-content mt-5" data-tab="events">
+                    <!-- Add past and upcoming events -->
+                    <div class="row justify-content-between align-items-center">
+                        <h2 class="col-lg-4">Events</h2>
+                        <span class="typewriter col-lg-6" data-text="Serious business. Mostly."></span>
+                    </div>
+                    <div class="d-flex justify-content-center gap-4 mt-4 mb-4">
+                        <button class="btn custom-btn btn-flat selected" data-filter="upcoming">Upcoming</button>
+                        <button class="btn custom-btn btn-flat" data-filter="past">Past</button>
+                    </div>
+                        
+                    <div id="upcoming" class="active container filter-content" data-filter="upcoming">
+                        <div class="row justify-content-center g-4 mt-4 mb-4">
+                            <div class="col-lg-6">
+                                <div class="card event-card" data-target-id="5">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/competition.jpg" alt="Event image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mt-3 p-0">
+                                        <div class="badge-container mb-3">
+                                            <span>Competition</span>
+                                            <span>Team</span>
+                                            <span>Popular</span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center mb-2">
+                                            <div class="ms-1 me-4 brand-azure text-center">
+                                                <p class="m-0">Sep</p>
+                                                <h4 class="m-0">15</h4>
+                                            </div>
+                                            
+                                            <h5 class="mb-0 card-title">National Robotics Championship</h5>
+                                        </div>
+
+                                        <p>Teams from different schools compete, build and battle robots designed for precision and speed.</p>
+
+                                        <p class="bold p-0">Singapore Expo, Hall 5</p>
+                                        <!-- <a href="#" class="btn btn-outline-primary mt-auto align-self-start">Learn More</a> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="card event-card" data-target-id="6">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/pair.jpg" alt="Event image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mt-3 p-0">
+                                        <div class="badge-container mb-3">
+                                            <span>Workshop</span>
+                                            <span>Chill</span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center mb-2">
+                                            <div class="ms-1 me-4 brand-azure text-center">
+                                                <p class="m-0">Aug</p>
+                                                <h4 class="m-0">22</h4>
+                                            </div>
+                                            
+                                            <h5 class="mb-0 card-title">Monthly Night Build</h5>
+                                        </div>
+
+                                        <p>Join a casual, open workshop where makers can create freely. Tools, snacks, and coffee provided.</p>
+
+                                        <p class="bold p-0">Makerspace</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="card event-card"data-target-id="7">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/circuit.jpg" alt="Event image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mt-3 p-0">
+                                        <div class="badge-container mb-3">
+                                            <span>Workshop</span>
+                                            <span>Masterclass</span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center mb-2">
+                                            <div class="ms-1 me-4 brand-azure text-center">
+                                                <p class="m-0">Sept</p>
+                                                <h4 class="m-0">1</h4>
+                                            </div>
+                                            
+                                            <h5 class="mb-0 card-title">Soldering & Circuit Masterclass</h5>
+                                        </div>
+
+                                        <p>Learn the ruthless art of soldering and circuit design. Hands-on workshop to elevate your maker game.</p>
+
+                                        <p class="bold p-0">Makerspace</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="card event-card" data-target-id="8">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/talk.jpg" alt="Event image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mt-3 p-0">
+                                        <div class="badge-container mb-3">
+                                            <span>Conference</span>
+                                            <span>Popular</span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center mb-2">
+                                            <div class="ms-1 me-4 brand-azure text-center">
+                                                <p class="m-0">Oct</p>
+                                                <h4 class="m-0">13</h4>
+                                            </div>
+                                            
+                                            <h5 class="mb-0 card-title">Tech Talk Weekend</h5>
+                                        </div>
+
+                                        <p>Thought leaders drop knowledge bombs by day; coders and builders hack through the night.</p>
+
+                                        <p class="bold p-0">Block S Lecture Theatre</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="past" class="container filter-content" data-filter="past">
+                        <div class="row justify-content-center g-4 mt-4 mb-4">
+
+                            <div class="col-lg-6">
+                                <div class="card event-card" data-target-id="101">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/stage.jpg" alt="Robotics Awards Ceremony">
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column mt-3 p-0">
+                                        <div class="badge-container mb-3">
+                                            <span>Competition</span>
+                                            <span>Team</span>
+                                            <span>Winner</span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center mb-2">
+                                            <div class="ms-1 me-4 brand-azure text-center">
+                                                <p class="m-0">Jan</p>
+                                                <h4 class="m-0">12</h4>
+                                            </div>
+
+                                            <h5 class="mb-0 card-title">Inter-School Robotics Challenge</h5>
+                                        </div>
+
+                                        <p>Our team clinched 2nd place among 30 schools, showcasing innovative autonomous robot designs and precise task execution.</p>
+
+                                        <p class="bold p-0">Changi Convention Center</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="card event-card" data-target-id="102">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/electronic_components.jpg" alt="Robotics Workshop">
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column mt-3 p-0">
+                                        <div class="badge-container mb-3">
+                                            <span>Workshop</span>
+                                            <span>Hands-on</span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center mb-2">
+                                            <div class="ms-1 me-4 brand-azure text-center">
+                                                <p class="m-0">March</p>
+                                                <h4 class="m-0">28</h4>
+                                            </div>
+
+                                            <h5 class="mb-0 card-title">Arduino Robotics Fundamentals</h5>
+                                        </div>
+
+                                        <p>A full-day session teaching Arduino basics for robotics control, sensor integration, and motor management — open to beginners.</p>
+
+                                        <p class="bold p-0">Block E, Room 230</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="card event-card" data-target-id="103">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/robot_dog.jpg" alt="Robotics Demo Day">
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column mt-3 p-0">
+                                        <div class="badge-container mb-3">
+                                            <span>Demo</span>
+                                            <span>Showcase</span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center mb-2">
+                                            <div class="ms-1 me-4 brand-azure text-center">
+                                                <p class="m-0">April</p>
+                                                <h4 class="m-0">10</h4>
+                                            </div>
+
+                                            <h5 class="mb-0 card-title">Robotics Showcase & Demo Day</h5>
+                                        </div>
+
+                                        <p>Members displayed completed projects and prototypes to faculty and peers, highlighting technical skills and creative engineering.</p>
+
+                                        <p class="bold p-0">P1 Convention Center</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="card event-card" data-target-id="104">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/tech_talk.jpg" alt="Robotics Guest Lecture">
+                                    </div>
+
+                                    <div class="card-body d-flex flex-column mt-3 p-0">
+                                        <div class="badge-container mb-3">
+                                            <span>Lecture</span>
+                                            <span>Popular</span>
+                                        </div>
+
+                                        <div class="d-flex justify-content-start align-items-center mb-2">
+                                            <div class="ms-1 me-4 brand-azure text-center">
+                                                <p class="m-0">May</p>
+                                                <h4 class="m-0">5</h4>
+                                            </div>
+
+                                            <h5 class="mb-0 card-title">Guest Lecture: Future of Robotics</h5>
+                                        </div>
+
+                                        <p>Industry expert shared insights on emerging trends in robotics and AI, inspiring members with real-world applications and challenges.</p>
+
+                                        <p class="bold p-0">Lecture Theatre 3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content container tab-content mt-5" data-tab="projects">
+                    <div class="row justify-content-between align-items-center">
+                        <h2 class="col-lg-4">Projects</h2>
+                        <span class="typewriter col-lg-6" data-text="Because we couldn't find one that already existed."></span>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row justify-content-center mt-4 mb-4">
+                            <div class="col-lg-4">
+                                <div class="card project-card" data-target-id="9">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/arduino.jpg" alt="Project image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                        <div class="d-flex justify-content-between align-items-center m-0">
+                                            <div class="project-title">Line-Follower Bot</div>
+                                            <div class="project-date">07-07-25</div>
+                                        </div>
+                                        <div class="badge-container mt-1">
+                                            <span>Arduino</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card project-card" data-target-id="10">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/3d_print_heli.jpg" alt="Project image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                        <div class="d-flex justify-content-between align-items-center m-0">
+                                            <div class="project-title">3D Printed Helicopter</div>
+                                            <div class="project-date">04-19-25</div>
+                                        </div>
+                                        <div class="badge-container mt-1">
+                                            <span>3D Printing</span>
+                                            <span>Arduino</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card project-card" data-target-id="11">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/breadboard_led.jpg" alt="Project image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                        <div class="d-flex justify-content-between align-items-center m-0">
+                                            <div class="project-title">Voice-Controlled Lamp</div>
+                                            <div class="project-date">05-29-25</div>
+                                        </div>
+                                        <div class="badge-container mt-1">
+                                            <span>Arduino</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card project-card" data-target-id="12">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/drone.jpg" alt="Project image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                        <div class="d-flex justify-content-between align-items-center m-0">
+                                            <div class="project-title">Programmed Drone</div>
+                                            <div class="project-date">01-02-25</div>
+                                        </div>
+                                        <div class="badge-container mt-1">
+                                            <span>Drone</span>
+                                            <span>Python</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card project-card" data-target-id="13">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/person_making_robot.jpg" alt="Project image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                        <div class="d-flex justify-content-between align-items-center m-0">
+                                            <div class="project-title">Rover</div>
+                                            <div class="project-date">28-12-24</div>
+                                        </div>
+                                        <div class="badge-container mt-1">
+                                            <span>Arduino</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card project-card" data-target-id="14">
+                                    <div class="image-wrapper">
+                                        <img src="../src/assets/images/mini-robot.jpg" alt="Project image">
+                                    </div>
+                                    
+                                    <div class="card-body d-flex flex-column mx-2 my-3 p-0">
+                                        <div class="d-flex justify-content-between align-items-center m-0">
+                                            <div class="project-title">Mini Robot</div>
+                                            <div class="project-date">29-11-24</div>
+                                        </div>
+                                        <div class="badge-container mt-1">
+                                            <span>Prototype</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="question-cta" class="content container-fluid mt-5 p-5 bg-brand-azure">
+                <div class="row align-items-center text-center py-5">
+                    <h1 class="col-lg-6 accent-lime m-0 p-0 glitch text-start">Got Questions?</h1>
+                    <div class="col-lg-6">
+                        <span class="af-white typewriter mb-5" data-text="Not sure? Just pretend you do and ask anyway."></span>
+                        <h5 class="af-white mt-5">Whether you're curious about events, projects, or how to build a drone that actually flies instead of crashing, reach out — we promise not to send you a robot army... yet.</h5>
+                        <a href="contact.html" class="btn custom-btn btn-primary my-5">Contact Us!</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row my-4">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="footer_titles text-uppercase mb-4">Contact</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2 footer_list_title">
+                                <img src="../src/assets/icons/phone.svg">
+                                Phone
+                            </li>
+                            <li class="mb-2">
+                                <a href="tel:+6512345678" target="_blank" class="text-primary">+65 1234 5678</a>
+                            </li>
+                            <li class="mb-2">
+                                *Whatsapp Chat Only
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li class="mb-2 footer_list_title">
+                                <img src="../src/assets/icons/email.svg">
+                                Email
+                            </li>
+                            <li class="mb-2">
+                                <a href="mailto:robotics_club@nyp.edu.sg" target="_blank" class="text-primary">robotics_club@nyp.edu.sg</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li class="mb-2 footer_list_title">
+                                <img src="../src/assets/icons/social_media.svg">
+                                Social Media
+                            </li>
+                            <li class="mb-2">
+                                @nyprobotics
+                            </li>
+                            <li class="mb-2">
+                                <a class="social-link" href="https://www.github.com/nyprobotics" role="button" target="_blank">
+                                    <img class="footer-social" src="../src/assets/icons/github.svg" height="30">
+                                </a>
+                                <a class="social-link" href="https://www.twitter.com/nyprobotics" role="button" target="_blank">
+                                    <img class="footer-social" src="../src/assets/icons/twitter.svg" height="30">
+                                </a>
+                                <a class="social-link" href="https://www.instagram.com/nyp_robotics" role="button" target="_blank">
+                                    <img class="footer-social" src="../src/assets/icons/instagram.svg" height="30">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="footer_titles text-uppercase mb-4">Address</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <img src="../src/assets/icons/location.svg">
+                                <a href="https://www.openstreetmap.org/?mlat=1.382028&mlon=103.849331#map=18/1.382028/103.849331" target="_blank" class="text-primary">180 Ang Mo Kio Ave 8, Singapore 569830</a>
+                            </li>
+                            <li class="mb-2">
+                                Room 999, Block E
+                            </li>
+                            <br>
+                            <li class="mb-2">
+                                <iframe class="col-lg-12" height="200" src="https://www.openstreetmap.org/export/embed.html?bbox=103.8472741954152%2C1.3811239134414663%2C103.85138870404401%2C1.3829311964338584&amp;layer=mapnik&amp;marker=1.3820275551095778%2C103.84933144972956" target="_blank" style="border: 2px solid var(--accent-lime)"></iframe>
+                                <br>
+                                <small>
+                                    <a href="https://www.openstreetmap.org/?mlat=1.382028&amp;mlon=103.849331#map=18/1.382028/103.849331" target="_blank">
+                                        View Larger Map
+                                    </a>
+                                </small>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="footer_titles text-uppercase mb-4">Club Hours</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <img src="../src/assets/icons/clock.svg">
+                                Thursday
+                            </li>
+                            <li class="mb-2">
+                                6pm - 9pm
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                        <div class="d-flex align-items-center justify-content-center mb-4 mx-auto footer_logo">
+                            <img src="../src/assets/icons/icon_black.png" height="150" alt="NYP Robotics logo with spinning animation" loading="lazy"/>
+                        </div>
+
+                        <h4 class="text-center footer_club_name">NYP Robotics</h4>
+
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3 footer_copyright">
+                <p>&copy; 2025 Sam & Pravin</p>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </body>
+    <script src="../src/js/script.js"></script>
+    <script src="../src/js/navbar.js"></script>
+    <script src="../src/js/tabs.js"></script>
+    <script src="../src/js/carousel.js"></script>
+    <script src="../src/js/activity.js"></script>
+</html>
