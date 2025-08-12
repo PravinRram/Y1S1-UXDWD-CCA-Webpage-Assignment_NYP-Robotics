@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Space Grotesk - B';
+    src: url(../assets/fonts/Space_Grotesk/static/SpaceGrotesk-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Space Grotesk - M';
+    src: url(../assets/fonts/Space_Grotesk/static/SpaceGrotesk-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Inter - SB';
+    src: url(../assets/fonts/Inter/static/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../assets/fonts/Manrope/static/Manrope-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Manrope - B';
+    src: url(../assets/fonts/Manrope/static/Manrope-Bold.ttf);
+}
+
+@font-face {
+    font-family: "DM Mono";
+    src: url(../assets/fonts/DM_Mono/DMMono-Regular.ttf);
+}

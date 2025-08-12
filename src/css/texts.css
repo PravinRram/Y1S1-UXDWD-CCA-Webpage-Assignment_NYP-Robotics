@@ -1,0 +1,122 @@
+h1 {
+    font-size: clamp(64px, 8vw, clamp(72px, 16vh, 128px));
+    font-family: 'Space Grotesk - B';
+    text-transform: uppercase;
+    color: var(--brand-azure);
+    padding-top: 1em;
+    padding-bottom: 1.2em;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.096); /* very slight shadow */
+}
+
+h1.display {
+    padding: 0;
+}
+
+h2 {
+    font-size: clamp(56px, 8vw, 80px);
+    font-family: 'Space Grotesk - M';
+}
+
+h3 {
+    font-size: clamp(32px, 4vw, 64px);
+    font-family: 'Inter - SB';
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Inter - SB';
+}
+
+h5 {
+    font-size: 24px;
+    font-family: 'Inter - SB';
+}
+
+p {
+    font-size: clamp(16px, 3vw, 18px);
+    font-family: 'Manrope';
+}
+
+p.bold {
+    font-family: "Manrope - B";
+}
+
+p strong {
+    font-size: clamp(20px, 3vw, 24px);
+    font-family: 'Manrope - B';
+    font-weight: unset;
+}
+
+body {
+    color: var(--primary-text);
+    overflow-x: hidden;
+}
+
+.white {
+    color: white;
+}
+
+.accent {
+    color: var(--accent-lime);
+}
+
+/* glitch effect */
+
+h1.glitch {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.glitch-letter {
+    opacity: 0;
+    animation: glitch-in 0.12s forwards ease-in-out;
+}
+
+@keyframes glitch-in {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+/* glitch effect end */
+
+/* typewriter (word by word terminal-like text anim) */
+
+.typewriter {
+    font-family: "DM Mono";
+    font-weight: 600;
+    font-size: clamp(14px, 2vw, 18px);
+    text-transform: uppercase;
+}
+
+.cursor {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 1rem;
+    /* background-color: var(--primary-text); using script to match with parent */
+    margin-left: 4px;
+    animation: blink infinite;
+    transition: opacity ease-in-out;
+}
+
+.cursor.fade-out {
+    animation: none;
+    opacity: 0;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50%      { opacity: 1; }
+}
+
+.stretched-text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+/* End of type writer */
+
+
