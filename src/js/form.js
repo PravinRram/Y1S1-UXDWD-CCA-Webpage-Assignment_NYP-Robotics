@@ -41,17 +41,20 @@ document.addEventListener("DOMContentLoaded", function () {
      
     form.addEventListener("submit", (e) => {
         e.preventDefault()
+        let validForm = true
 
         fields.forEach(field => {
             if (!validateField(field)) {
-                return
+                validForm = false
             }
         })
 
-        overlay.classList.add("active");
-        loadingModal.classList.add("active");
-        form.reset()
-        animateFakeLoading();
+        if (validForm) {
+            overlay.classList.add("active");
+            loadingModal.classList.add("active");
+            form.reset()
+            animateFakeLoading();
+        }
     })
 
     fields.forEach(field => {
